@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoliio</title>
+    <script
+      src="https://kit.fontawesome.com/6ed26a2bee.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <div class="main-wrap">
+      <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
+      <div class="mobile-nav">
+        <button class="close"><i class="fa-solid fa-circle-xmark"></i></button>
+        <ul>
+          <li class="mob-navlink">
+            <a href="./">Home</a>
+          </li>
+          <li class="mob-navlink">
+            <a href="#about">About</a>
+          </li>
+          <li class="mob-navlink">
+            <a href="#services">Services</a>
+          </li>
+          <li class="mob-navlink">
+            <a href="#works">Recent Works</a>
+          </li>
+          <li class="mob-navlink">
+            <a href="#blogs">Blogs</a>
+          </li>
+        </ul>
+      </div>
+
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="logo">
+                <img src="./img/logo.png" alt="" height="100px" />
+              </div>
+              <div class="nav-link flex">
+                <li>
+                  <a href="./">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#works">Recent Works</a>
+                </li>
+                <li>
+                  <a href="#blogs">Blogs</a>
+                </li>
+              </div>
+            </div>
+            <div class="right">
+              <a
+                href="#contact-us"
+                class="btn btn-primary"
+                style="text-decoration: none"
+                >Contact</a
+              >
+            </div>
+          </nav>
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1">
+              <h6>Avinash</h6>
+              <h1>FULLSTACK DEVELOPER</h1>
+              <p>
+                Specializes in building full-stack web applications using
+                MongoDB for database, Express.js for server-side, React.js for
+                front-end, and Node.js for server-side runtime. Also handle
+                front-end and back-end development.
+              </p>
+              <div>
+                <button class="btn btn-secondary" id="download-cv">
+                  DOWNLOAD CV
+                </button>
+              </div>
+            </div>
+            <div class="right flex flex-1 justify-center">
+              <img src="./img/pfimg.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="about" class="about">
+        <div class="container flex items-center inrwrp">
+          <div class="flex-1">
+            <img src="./img/about.png" alt="" />
+          </div>
+          <div class="flex-1 right">
+            <h1>About <span>Me</span></h1>
+            <h3>HEY! I'M AVINASH</h3>
+            <p>
+              I am a budding web developer passionate about creating dynamic and
+              user-friendly websites. Skilled in the MERN stack, I enjoy
+              building full-stack applications and continuously learning new
+              technologies. I thrive on solving problems, optimizing
+              performance, and delivering high-quality, scalable solutions to
+              enhance user experiences.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span>Services</h1>
+          <p>
+            Peovide high standard clean website for your bussiness solutions
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <i class="fa-solid fa-briefcase"></i>
+              <h2>Full-Stack Web Development</h2>
+              <p>
+                Comprehensive development services covering both front-end and
+                back-end, utilizing the MERN stack to build robust and scalable
+                web applications from scratch.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-code"></i>
+              <h2>Front-End Development</h2>
+              <p>
+                Creating dynamic and interactive user interfaces using React.js,
+                ensuring a seamless user experience with modern design practices
+                and responsive layouts.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-paintbrush"></i>
+              <h2>Back-End Development</h2>
+              <p>
+                Developing efficient server-side logic and database interactions
+                using Node.js and Express.js, ensuring secure and reliable data
+                management.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-webflow"></i>
+              <h2>Custom Web Application Development</h2>
+              <p>
+                Creating tailored web applications to meet specific business
+                needs, offering unique functionality and customized user
+                experiences.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-database"></i>
+              <h2>Database Design and Management</h2>
+              <p>
+                Designing and managing databases with MongoDB, optimizing data
+                structures for performance, and ensuring data integrity and
+                security.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-person-dress-burst"></i>
+              <h2>RESTful API Development</h2>
+              <p>
+                Building RESTful APIs to enable smooth communication between
+                client-side applications and the server, facilitating data
+                exchange and integration with other services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="freelancer">
+        <h1>Avialeble for Freelancing.</h1>
+        <p>
+          You just state your need and requirments and gets the satisfied
+          results.
+        </p>
+        <button class="btn btn-primary" id="download-cv1">Download CV</button>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Clients</h1>
+          <p>We provide as expected results for our clients</p>
+          <div class="slider">
+            <div class="slide">
+              <img src="./img/reviews1.jpg" alt="" />
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                ut eius suscipit doloremque quam sunt quidem exercitationem!
+                Repellendus autem assumenda corrupti delectus voluptatibus
+                blanditiis pariatur rem beatae, debitis fuga quisquam nemo unde
+                dolorem enim. Similique consectetur cumque tempore ipsum minima
+                a expedita deleniti eius? Id ut ad quasi eligendi illum."
+              </p>
+              <span>Johny Johny, Yes Dady</span>
+            </div>
+            <div class="slide">
+              <img src="./img/t2.png" alt="" />
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                ut eius suscipit doloremque quam sunt quidem exercitationem!
+                Repellendus autem assumenda corrupti delectus voluptatibus
+                blanditiis pariatur rem beatae, debitis fuga quisquam nemo unde
+                dolorem enim. Similique consectetur cumque tempore ipsum minima
+                a expedita deleniti eius? Id ut ad quasi eligendi illum."
+              </p>
+              <span>Johny Johny, Yes Dady</span>
+            </div>
+            <div class="slide">
+              <img src="./img/t3.jpeg" alt="" />
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                ut eius suscipit doloremque quam sunt quidem exercitationem!
+                Repellendus autem assumenda corrupti delectus voluptatibus
+                blanditiis pariatur rem beatae, debitis fuga quisquam nemo unde
+                dolorem enim. Similique consectetur cumque tempore ipsum minima
+                a expedita deleniti eius? Id ut ad quasi eligendi illum."
+              </p>
+              <span>Johny Johny, Yes Dady</span>
+            </div>
+            <div class="slide">
+              <img src="./img/t4.jpeg" alt="" />
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                ut eius suscipit doloremque quam sunt quidem exercitationem!
+                Repellendus autem assumenda corrupti delectus voluptatibus
+                blanditiis pariatur rem beatae, debitis fuga quisquam nemo unde
+                dolorem enim. Similique consectetur cumque tempore ipsum minima
+                a expedita deleniti eius? Id ut ad quasi eligendi illum."
+              </p>
+              <span>- Johny Johny, Yes Dady</span>
+            </div>
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+      </section>
+      <section id="works" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span>Works</h1>
+          <p>Checkout our Recent works</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web development</a>
+              </div>
+              <img src="./img/work1.jpeg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Fullstack</a>
+              </div>
+              <img src="./img/work2.jpg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Framework update</a>
+              </div>
+              <img src="./img/work3.jpg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">React</a>
+              </div>
+              <img src="./img/work4.jpeg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">MERN stack</a>
+              </div>
+              <img src="./img/work5.jpg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Front-End</a>
+              </div>
+              <img src="./img/work6.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blogs" class="blogs">
+        <div class="container">
+          <h1 class="section-heading">Blogs</h1>
+          <p>Check Our Blog and Stay Updated</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./img/blog1.webp" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#"><h1>Learn About Blogs</h1></a>
+                <span>July 15,2024</span>
+                <p>
+                  atur minus dolor eveniet voluptatum eligendi sequi debitis
+                  dolores vitae voluptatibus? Vero accusantium esse et
+                  voluptatem id odit nulla, aut praesentium similique alias
+                  maiores fuga laboriosam doloribus dolorum accusamus rerum
+                  voluptatum aliquid? Atque, inventore ex.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./img/blog2.jpeg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#"><h1>Learn About Blogs</h1></a>
+                <span>July 15,2024</span>
+                <p>
+                  atur minus dolor eveniet voluptatum eligendi sequi debitis
+                  dolores vitae voluptatibus? Vero accusantium esse et
+                  voluptatem id odit nulla, aut praesentium similique alias
+                  maiores fuga laboriosam doloribus dolorum accusamus rerum
+                  voluptatum aliquid? Atque, inventore ex.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./img/blog3.jpeg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#"><h1>Learn About Blogs</h1></a>
+                <span>July 15,2024</span>
+                <p>
+                  atur minus dolor eveniet voluptatum eligendi sequi debitis
+                  dolores vitae voluptatibus? Vero accusantium esse et
+                  voluptatem id odit nulla, aut praesentium similique alias
+                  maiores fuga laboriosam doloribus dolorum accusamus rerum
+                  voluptatum aliquid? Atque, inventore ex.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact-us" class="contact">
+        <div class="container">
+          <h1 class="section-heading"><span>Contact</span>US</h1>
+          <p>If You Have any Queries Get in Touch with Us</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call Us On</h1>
+              <h6>+7027888321</h6>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-envelope"></i>
+              <h1>Email Us On</h1>
+              <h6>aviinyou07@gmail.com</h6>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-map"></i>
+              <h1>Visit Office</h1>
+              <h6>Habbiat, Sec- 99A,Gurgaon, 122505</h6>
+            </div>
+          </div>
+          <form
+            action="https://formspree.io/f/xanwnrop"
+            method="post"
+            id="contact-form"
+          >
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name "
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="input-wrapper2">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject..."
+                required
+              />
+              <textarea
+                id="message"
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Your Message Here..."
+                required
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary">SEND MESSAGE</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="logo">
+          <img src="./img/logo.png" alt="" height="150px" />
+        </div>
+        <div class="footer-detail">
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="copyright text-center">
+          Copyrights 2024 &copy; Avi. All Rights Reserved.
+        </div>
+      </footer>
+    </div>
+    <button id="scrollToTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
